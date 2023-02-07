@@ -5,22 +5,24 @@ ThemeData LightMode = ThemeData(
   appBarTheme: AppBarTheme(
     color: Colors.black,
         centerTitle: true,
-    backgroundColor: Colors.red,
+    titleTextStyle:     GoogleFonts.lobster(fontSize: 20,color: Colors.white),
   ),
   textTheme:  TextTheme(
-    headline1: TextStyle(),
+    headline1: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
   )
 );
 
 
 
 ThemeData Darktheam = ThemeData(
+  brightness: Brightness.dark,
     appBarTheme: AppBarTheme(
-      color: Colors.black,
+      color: Colors.red,
+      titleTextStyle:  GoogleFonts.lobster(fontSize: 20,color: Colors.black,fontWeight: FontWeight.bold),
       centerTitle: true,
-      backgroundColor: Colors.red,
     ),
     textTheme:  TextTheme(
-      headline1: TextStyle(),
+      headline1: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white),
+
     )
 );
