@@ -9,7 +9,7 @@ import 'Utilities/Theme.dart';
 
 void main()
 {
-
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(
     MaterialApp(
       theme: LightMode,

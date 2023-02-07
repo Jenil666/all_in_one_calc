@@ -1,4 +1,9 @@
+import 'package:all_in_one_calc/Utilities/Theme.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+
+
+//var brightness = MediaQuery.of(context).platformBrightness;
 
 
 Widget Con(String name, String Path, BuildContext conte)
@@ -23,7 +28,8 @@ Widget Con(String name, String Path, BuildContext conte)
         ),
         Divider(
           height: 0,
-          color: Colors.black,
+         // brightness == LightMode? color: Colors.black:
+          color: Colors.white,
           thickness: 2,
         ),
         Center(child: Text("$name",style: Theme.of(conte).textTheme.headline1,)),
