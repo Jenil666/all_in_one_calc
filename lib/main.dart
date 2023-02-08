@@ -16,6 +16,7 @@ void main()
       darkTheme: Darktheam,
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
+      initialRoute: 'Gst',
       routes:{
         '/':(context)=>HomeScreen(),
         'Emi':(context)=>Emicalc(),

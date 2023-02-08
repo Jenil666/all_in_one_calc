@@ -56,7 +56,7 @@ class _EmicalcState extends State<Emicalc> {
                         ),
                         Padding(
                           padding: EdgeInsets.only(top: 10),
-                          child: Text("$amount",
+                          child: Text("${amount.toInt()}",
                             style: TextStyle(
                               fontSize: 25,
                               color: Color(0xff0f2027),
@@ -88,7 +88,7 @@ class _EmicalcState extends State<Emicalc> {
                         ),
                         Padding(
                           padding: EdgeInsets.only(top: 10),
-                          child: Text("$abc",
+                          child: Text("${abc.toInt()}",
                             style: TextStyle(
                               fontSize: 25,
                               color: Color(0xff0f2027),
@@ -120,7 +120,7 @@ class _EmicalcState extends State<Emicalc> {
                         ),
                         Padding(
                           padding: EdgeInsets.only(top: 10),
-                          child: Text("$time",
+                          child: Text("${time.toInt()}",
                             style: TextStyle(
                               fontSize: 25,
                               color: Color(0xff0f2027),

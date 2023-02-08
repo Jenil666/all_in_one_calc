@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/scheduler.dart';
 
 import 'images.dart';
 
@@ -21,3 +22,6 @@ double time = 1;
 double tint = 0;
 double ans = 0;
 double tam = 0;
+
+
+String gstOriginalPrice = "00";

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+var brightness = SchedulerBinding.instance.platformDispatcher.platformBrightness;
 ThemeData LightMode = ThemeData(
   appBarTheme: AppBarTheme(
     color: Colors.black,
